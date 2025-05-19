@@ -47,9 +47,5 @@ console.log(result)
 n = 10;
 sum = 1;
 if (n % 2 == 0) {
-    console.log(`${sum +
-        
-        
-        n}is even`)
-
+    console.log(`${sum + n}is even`)
 }
