@@ -88,3 +88,8 @@ btn.onclick = function () {
     window.open("https://www.instagram.com/")
     alert("welcome to instagram")
 }
+
+
+
+
+
