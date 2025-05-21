@@ -1,5 +1,6 @@
-import Form1 from './Form1'
+import form from'./Form1'
 import './App.css'
+import Form1 from './Form1'
 
 function App() {
 

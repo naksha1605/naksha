@@ -4,25 +4,31 @@ import "./App.css"
 const Form1 = () => {
   return (
    <>
+   <center>
       <div>student detail</div>
       <div className='con'>
-      <label>name</label>
+      <label>name </label>
       <input
        text="text"
        name="name"
        />
-       <label>dept</label>
+       </div>
+       <div>
+       <label>dept </label>
        <input
        text="text"
        dept="dept"
-       />
-       <label > class</label>
+       /></div>
+       <div>
+       <label > class </label>
        <input
        text="text"
        className="class"
-       />
-    
+       /></div>
+       <div>
+      <button>submit</button> 
        </div>
+       </center>
    </>
 
   )
