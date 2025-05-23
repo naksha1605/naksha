@@ -7,10 +7,6 @@ function Child1({ onButtonClick, name }) {
   return (
     <div>
       <button onClick={sentData} className='btn btn-danger'>clickMe</button>
-
-
-
-
     </div>
   )
 }
