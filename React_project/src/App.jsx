@@ -2,8 +2,9 @@ import {useEffect, useState } from 'react'
 import './App.css'
 import Home from './Home'
 import Child from './Child'
+import User from './User'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 function App() {
   // const [users, setUsers] = useState(
   // [
@@ -30,7 +31,8 @@ function App() {
   // }useEffect(() => 
   const [users, setUsers] = useState([])
 
-  function data() { const res = fetch("https://dummyjson.com/products") 
+  function data() {
+     const res = fetch("https://dummyjson.com/products") 
   .then((res) => res.json())
     .then((data) => setUsers(data.products)).catch((err)=> console.log("err",err))
 
@@ -69,13 +71,14 @@ return (
 
       </div> */}
       
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path="/"element={<Home/>}></Route>
           <Route path ="/child"element={<Child users={users}/>}></Route>
+          <Route path ="/user"element={<User/>}> </Route>
         </Routes>
-      </Router>
-
+      </Router>  */}
+<User/>
   </>
 )
 }
