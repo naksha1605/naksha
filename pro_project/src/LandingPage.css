@@ -1,0 +1,23 @@
+/* LandingPage {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #dc9c9c;
+  min-height: 100vh;
+  padding: 40px 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.card-custom {
+  width: 1200px;
+  height: 100px; */
+/* } */
+
+.card{
+  display: flex;
+  min-width: 300px;
+  min-height: 400px;
+}
+.card-img-top{
+  min-width: 200px;
+}
